@@ -1,0 +1,12 @@
+color:red;
+
+selectors=>element selectors,id selectors , class selectors
+css declarattion
+{
+    background-color:blue;
+    color:white;
+}
+css rule
+selector{
+
+}
