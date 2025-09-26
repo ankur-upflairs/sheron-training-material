@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>4 Boxes</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      border: 1px solid black;      
+    }
+    .box1{
+        /* transform: translate(100px,50px); */
+        /* transform: translateY(30px); */
+    }
+    .box2{
+        /* transform: scaleY(1.5); */
+        /* transform: scale(2,1.2); */
+
+    }
+    .box3{
+        /* transform: skewX(30deg); */
+        /* transform: skewY(20deg); */
+        /* transform: skew(30deg,45deg); */
+    }
+     .box4{
+        transition: all 2s;
+    }
+    .box4:hover{
+        /* transform :rotate(40deg); */
+        transform: translateX(200px) rotate(1turn);
+    }
+  </style>
+</head>
+<body>
+  <div class="box box1"></div>
+  <div class="box box2"></div>
+  <div class="box box3"></div>
+  <div class="box box4"></div>
+</body>
+</html>
