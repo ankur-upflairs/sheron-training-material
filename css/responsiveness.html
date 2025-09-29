@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>4 Boxes</title>
+  <style>
+    .container{
+        width: 80%;height: 500px;border: 1px solid;
+        display: flex;
+        margin: 10px auto;
+    }
+    .box {
+      /* width: 100px; */
+      height: 100px;
+      border: 1px solid black;  
+      flex-grow: 1;    
+    }
+    .box1{}
+    .box2{
+        display: none;
+    }
+    .box3{font-size: 40px;}
+    .box4{}
+    @media screen and (max-width: 900px) {
+        .container{
+            flex-wrap: wrap;
+        }
+        .box{
+            width: calc(50% - 2px);
+        }
+        .box1{
+            display: none;
+        }
+        .box2{
+            display: block;
+        }
+         .box3{
+            font-size: 20px;
+        }
+    }
+     @media screen and (max-width: 767px) {
+        .container{
+            flex-wrap: wrap;
+        }
+        .box{
+            width: 100%;
+        }
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">1 desktop</div>
+        <div class="box box2">2 mobile</div>
+        <div class="box box3">desktop vs mobile</div>
+        <div class="box box4"></div>
+    </div>
+</body>
+</html>
+
