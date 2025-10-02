@@ -1,0 +1,42 @@
+Beginner Level
+
+Write a function that prints numbers from 1 to 10 using a for loop.
+
+Write a function that prints all even numbers between 1 and 50 using a while loop.
+
+Write a function that takes a number n and prints its multiplication table (1 to 10).
+
+Write a function that calculates the sum of numbers from 1 to n.
+
+Write a function that finds the factorial of a number using a loop.
+
+🔹 Intermediate Level
+
+Write a function that prints all elements of an array using a for loop.
+
+Write a function that prints the largest number in an array without using Math.max().
+
+Write a function that reverses a string using a loop.
+
+Write a function that counts how many vowels are in a string using a loop.
+
+Write a function that checks whether a number is prime using a loop.
+
+🔹 Advanced Level
+
+Write a function that generates the first n Fibonacci numbers using a loop.
+
+Write a function that prints a triangle pattern like this (for n=5):
+
+*
+**
+***
+****
+*****
+
+
+Write a function that checks whether a string is a palindrome (without using built-in reverse).
+
+Write a function that finds the second largest number in an array using a loop.
+
+Write a function that prints all prime numbers between 1 and 100.
