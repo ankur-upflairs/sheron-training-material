@@ -1,0 +1,47 @@
+Manipulating Text
+
+Select a <p> element with the ID message and change its text to "Hello DOM!".
+
+Get the text from a <h1> element and log it to the console.
+
+Change the value of an <input> box when a button is clicked.
+
+Replace the text content of all <li> elements in a list with "Item Updated".
+
+Append " - New" at the end of a <div> element’s text.
+
+Manipulating Styles
+
+Select a <div> with class box and change its background color to red.
+
+Increase the font size of all <p> elements to 20px.
+
+Change the color of a button when the mouse is hovered over it.
+
+Toggle the visibility of an image (display: none / block) using a button.
+
+Make a <p> text bold and italic with JS.
+
+Manipulating classList
+
+Add a class highlight to a <p> element when a button is clicked.
+
+Remove a class hidden from an element to make it visible.
+
+Toggle a dark-mode class on the body when a button is clicked.
+
+Check if an element has a specific class (active) and log true/false.
+
+Add multiple classes (box, shadow, rounded) to a <div> using JS.
+
+Handling Events
+
+Show an alert when a button is clicked.
+
+Change the text of a paragraph when a button is double-clicked.
+
+Change the background color of the page when any key is pressed.
+
+Show the text of an input box in a <p> when the user types (keyup event).
+
+Create a counter that increases by 1 every time a button is clicked.

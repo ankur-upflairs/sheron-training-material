@@ -36,6 +36,19 @@ function operation(a,b,fnc){
 }
 // console.log(operation(4,5,sum))
 console.log(operation(3,4,(a,b)=>a*b))
-
-
-
+// https://us06web.zoom.us/j/81776359780?pwd=pfESiHS2qQ16FU26NcMvlBudHH7klj.1
+//callback functions => 
+//a function that is passed as an argument to another function and call inside it 
+//is known as callback function 
+function multiplyBy5AndOperate(a,cb_fnc){
+    let b= a*5
+    let c = cb_fnc(b)
+    return c
+}
+// console.log(multiplyBy5AndOperate(4,x=>x+10))
+// console.log(multiplyBy5AndOperate(8,x=>x*2))
+//iefe => imediate execute function express
+// (function(a){
+//     console.log(a)
+// })(34) 
+//debouncing, curring 
