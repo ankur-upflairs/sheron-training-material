@@ -2,14 +2,14 @@
 let a = [34,'test' , true ]
 //indexing  is a way to access elements inside array ,indexing starts with 0
 
-console.log(a[1])
-console.log(a.at(2))
+// console.log(a[1])
+// console.log(a.at(2))
 // console.log(a.length)
 // a.pop()
 // a.push(45)
 // a.shift()
 // a.unshift(23)
-let b = [2,3,5,7,19,5]
+// let b = [2,3,5,7,19,5]
 // a.includes(5)
 // b.indexOf(5,3)
 // console.log(b.lastIndexOf(5))
@@ -36,18 +36,38 @@ let b = [2,3,5,7,19,5]
 //     console.log(v,i,arr)
 // })
 
+let c = [2,3,5,7,19,5] 
 
+// let d = c.map((v,i,arr)=>{
+//     return v*2
+// })
+// console.log(d)
+// let e = c.every((v)=>v>3)
+// console.log(e)
+// let e = c.some((v)=> v > 30)
+// console.log(e)
+// let e = c.filter((v,i,arr)=> v >= 5)
+// console.log(e)
+// let e = c.find((v,i)=> v>5)
+// console.log(e)
+// let e = c.findIndex(v=>v>5)
+// console.log(e) 
 
+// let sum = 0
+// for(let x of c){
+//     sum+=x
+// }
+// console.log(sum)
 
-
-
-
-
-
-
-
-
-
+// let e = c.reduce((preVal,currVal,index,arr)=>{
+//     return preVal + currVal //2 => 5 => 10 => 17 => 36 => 41
+// },0)
+// console.log(e) 
+// let f = [[1,2],[3,4],[5,6]]
+// // console.log(f.flat(Infinity))
+// console.log(f.flatMap((v,i,arr)=>{
+//     return v.concat([23])
+// }))
 
 
 
