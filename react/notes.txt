@@ -1,0 +1,5 @@
+react => react is a js library to create complete UI.(facebook)
+1. react only creates SPA (single page application )
+2. it provide the structure of application .
+3. it uses virtual DOM ( lightweight ).
+4. it uses component based architecture .

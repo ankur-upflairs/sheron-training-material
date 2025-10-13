@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .todo-box {
+        width: 340px;
+        background-color: lightblue;
+        padding: 20px;
+        margin: 20px auto;
+        border: 1px solid blue;
+      }
+      .input-box {
+        width: 300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      .input-box input {
+        outline: none;
+        border: none;
+        background-color: aqua;
+        width: 200px;
+        border-radius: 10px;
+        height: 30px;
+        padding-left: 10px;
+      }
+      .input-box button {
+        height: 30px;
+        outline: none;
+        border: none;
+        background-color: aqua;
+        border-radius: 8px;
+        color: red;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+      }
+      li {
+        color: lightcoral;
+        font-size: 20px;
+        margin-bottom: 10px;
+        display: inline-flex;
+        justify-content: space-between;
+      }
+      .line {
+        text-decoration: line-through green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="todo-box">
+      <div class="input-box">
+        <input id="text" type="text" /><button id="add-button">Add</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+    <script>
+      let addBtn = document.getElementById("add-button");
+      let taskBox = document.querySelector(".task-box");
+      let input = document.getElementById("text");
+      let toDo;
+      if (localStorage.getItem("todo")) {
+        toDo = JSON.parse(localStorage.getItem("todo"));
+        updateUI();
+      } else {
+        toDo = [{ task: "buy mango", isComplete: false }];
+        updateUI();
+      }
+      addBtn.addEventListener("click", function () {
+        let text = input.value;
+        addTodo(text);
+        updateUI();
+        input.value = "";
+      });
+      function addTodo(text) {
+        toDo.push({
+          task: text,
+          isComplete: false,
+        });
+      }
+      function deleteTask(index) {
+        // console.log(index)
+        toDo.splice(index, 1);
+        updateUI();
+        // console.log(toDo)
+      }
+      function completeTask(index) {
+        toDo[index].isComplete = !toDo[index].isComplete;
+        console.log(toDo);
+        updateUI();
+      }
+      function updateUI() {
+        let listHtml = "";
+        for (let task of toDo) {
+          let index = toDo.indexOf(task);
+          listHtml += `<li > <span onclick="completeTask(${index})" ><input type="checkbox" ${
+            task.isComplete ? "checked" : ""
+          } /> </span> <span class='${
+            task.isComplete ? "task line" : "task"
+          }'>${
+            task.task
+          }</span><span onclick="deleteTask(${index})" class='delete'> ❌ </span> </li>`;
+        }
+        taskBox.innerHTML = listHtml;
+        localStorage.setItem("todo", JSON.stringify(toDo));
+      }
+    </script>
+  </body>
+</html>

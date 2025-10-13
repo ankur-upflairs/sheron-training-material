@@ -1,0 +1,81 @@
+10 Most Used Practical JavaScript Projects
+
+1. To-Do List App
+Skills: DOM Manipulation, Local Storage
+Description: Create a task manager where users can add, edit, delete, and mark tasks as completed.
+Add-ons:
+- Save tasks in local storage
+- Add filtering (All / Completed / Pending)
+- Dark mode toggle
+
+2. Weather App (with API)
+Skills: API Fetching, Async JS, JSON Handling
+Description: Fetch weather data from an API like OpenWeatherMap based on city name.
+Add-ons:
+- Show temperature, humidity, wind speed
+- Show weather icons dynamically
+- Auto-detect location using Geolocation API
+
+3. Calculator
+Skills: Event Handling, Expression Evaluation
+Description: A simple yet functional calculator with basic operations.
+Add-ons:
+- Keyboard support
+- History of calculations
+- Scientific mode
+
+4. Expense Tracker
+Skills: CRUD Operations, Array Methods, Local Storage
+Description: Track daily income and expenses, showing total balance and history.
+Add-ons:
+- Chart.js integration for visualization
+- Export data to CSV
+- Category-based filtering
+
+5. Quiz App
+Skills: Data Structures, Timer, Event Handling
+Description: A multiple-choice quiz app that tracks score and progress.
+Add-ons:
+- Timer countdown per question
+- Store high scores in local storage
+- Randomized questions
+
+6. Notes App
+Skills: CRUD, Local Storage, DOM Manipulation
+Description: Create, edit, and delete notes with autosave.
+Add-ons:
+- Markdown support
+- Search and filter notes
+- Color tags for categories
+
+7. Image Gallery / Photo Search App
+Skills: API Integration, Dynamic Rendering, Pagination
+Description: Fetch and display images from Unsplash API or Pexels API.
+Add-ons:
+- Infinite scroll
+- Image download feature
+- Modal preview on click
+
+8. Digital Clock & Alarm
+Skills: Date/Time APIs, Audio, Event Scheduling
+Description: Display live time and allow setting alarms.
+Add-ons:
+- Multiple alarms
+- Custom ringtones
+- Snooze functionality
+
+9. Form Validator
+Skills: Regex, DOM Validation, UX Enhancements
+Description: Build a form that validates email, password, username, etc.
+Add-ons:
+- Real-time feedback
+- Password strength meter
+- Tooltip-based hints
+
+10. E-Commerce Cart (Mini Store)
+Skills: Array Manipulation, Local Storage, Event Handling
+Description: Display a list of products and allow adding/removing from a cart.
+Add-ons:
+- Dynamic total price calculation
+- Quantity update
+- Persist cart in local storage
