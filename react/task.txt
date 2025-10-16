@@ -1,0 +1,2 @@
+create 10 friends data and show them in cards
+create 10 places to visit data and show them page (cards)
