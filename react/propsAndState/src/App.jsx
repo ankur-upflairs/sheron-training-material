@@ -5,6 +5,8 @@ import './App.css'
 import Product from './Product'
 import Products from './Products'
 import ReactEvents from './Events'
+import ReactState from './ReactState'
+import ReactForm from './ReactForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +18,9 @@ function App() {
      <Product image="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/6/v/v/10-snk-eva-740-wht-blk-10-bruton-white-black-original-imahdmzbdvn6jd5u.jpeg?q=70"
      title="shoes" description="world's best shoes" price="2000" />  */}
      {/* <Products /> */}
-     <ReactEvents />
+     {/* <ReactEvents /> */}
+     {/* <ReactState /> */}
+     <ReactForm />
     </>
   )
 }
