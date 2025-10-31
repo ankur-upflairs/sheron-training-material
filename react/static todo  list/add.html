@@ -1,0 +1,63 @@
+<!doctype html>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="logo">ZenTodo</h1>
+            <nav>
+                <a class="btn" href="index.html">List</a>
+                <a class="btn outline" href="add.html">Add Task</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="container page centered">
+        <section class="panel form-panel">
+            <h2>Create New Task</h2>
+
+
+            <form class="todo-form" onsubmit="return false;">
+                <label>Title
+                    <input type="text" placeholder="e.g. Call mom" disabled>
+                </label>
+
+
+                <label>Category
+                    <select disabled>
+                        <option>Personal</option>
+                        <option>Work</option>
+                        <option>Groceries</option>
+                    </select>
+                </label>
+
+
+                <label>Due date
+                    <input type="date" disabled>
+                </label>
+
+
+                <label>Description
+                    <textarea rows="4" placeholder="Notes..." disabled></textarea>
+                </label>
+
+
+                <div class="form-actions">
+                    <a href="index.html" class="btn">Save Task</a>
+                    <a href="index.html" class="btn outline">Cancel</a>
+                </div>
+            </form>
+
+
+        </section>
+    </main>
+
+
+    <footer class="site-foot">
+        <div class="container">Convert each page into React components (List / Add / Details)</div>
+    </footer>
+</body>
+
+</html>
