@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Buy groceries",
+      "description": "Buy all essential groceries from the local market including vegetables, fruits, milk, bread, and other household items needed for the week.",
+      "category": "Groceries",
+      "dueDate": "24-10-2025",
+      "isComplete": true
+    },
+    {
+      "id": "2",
+      "title": "Pay electricity bill",
+      "description": "Log in to the electricity board website and pay the monthly electricity bill before the due date to avoid late charges or service interruptions.",
+      "category": "Bills",
+      "dueDate": "18-11-2025",
+      "isComplete": true
+    },
+    {
+      "id": "3",
+      "title": "Doctor appointment",
+      "description": "Visit Dr. Sharma for a general health checkup, discuss recent symptoms if any, get routine tests done, and collect prescriptions or follow-up instructions.",
+      "category": "Health",
+      "dueDate": "05-12-2025",
+      "isComplete": false
+    },
+    {
+      "id": "4",
+      "title": "Complete project report",
+      "description": "Work on the pending project report by organizing all data, writing detailed sections, reviewing errors, and preparing it for final submission to the manager.",
+      "category": "Work",
+      "dueDate": "30-11-2025",
+      "isComplete": false
+    },
+    {
+      "id": "5",
+      "title": "Car service",
+      "description": "Take the car to the authorized service center for a full inspection including oil change, brake check, tire rotation, and cleaning to ensure proper maintenance.",
+      "category": "Maintenance",
+      "dueDate": "10-12-2025",
+      "isComplete": false
+    }
+  ]
+}
